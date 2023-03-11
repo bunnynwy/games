@@ -14,6 +14,8 @@ elseif game.PlaceId == 9380307595 then
     print ("Pixel Piece(East blue)")
 elseif game.PlaceId == 12604352060 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/bunnynwy/games/main/arcane_odyssey"))()
+    elseif game.PlaceId == 12413786484 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/bunnynwy/games/main/animelost"))()
     else
         print ("Game not found")
 end
