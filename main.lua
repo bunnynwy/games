@@ -20,6 +20,8 @@ elseif game.PlaceId == 12604352060 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/bunnynwy/games/main/chestsim"))()
     elseif game.PlaceId == 12404957109 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/bunnynwy/games/main/animestreet"))()
+     elseif game.PlaceId == 13120948763 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/bunnynwy/games/main/animesmash"))()
     else
         print ("Game not found")
 end
