@@ -33,7 +33,8 @@ elseif game.PlaceId == 12604352060 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/bunnynwy/games/main/armwestle"))()
 elseif game.PlaceId == 13743091461 then
  loadstring(game:HttpGet("https://raw.githubusercontent.com/bunnynwy/games/main/animelands"))()
-
+elseif game.PlaceId == 13062181190 then
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/bunnynwy/games/main/anime_fight_next_gen"))()
     else
         print ("Game not found")
 end
