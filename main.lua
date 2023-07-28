@@ -1,4 +1,10 @@
-
+game:GetService("UserInputService").InputBegan:Connect(function(input)
+    if input.KeyCode == Enum.KeyCode.LeftControl then
+        if game:GetService("CoreGui"):FindFirstChild("Muimi Hub | "..game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name) then
+            game:GetService("CoreGui"):FindFirstChild("Muimi Hub | "..game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name).Enabled = not game:GetService("CoreGui"):FindFirstChild("Muimi Hub | "..game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name).Enabled
+        end
+    end
+end)
 if game.PlaceId == 11542692507 then
     print ("Anime Souls Simulator")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/bunnynwy/games/main/animesouls"))()
